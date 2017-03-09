@@ -1,0 +1,2 @@
+all:
+	 sudo g++ main.cpp LSA08.cpp controlmath.cpp pidController.cpp minimu9.cpp ps2USB.cpp ps2_2k17.cpp driveConfig.cpp timerInterrupt.cpp mechanismConfig.cpp encoderGrey.cpp odometry.cpp automation.cpp -o main.out -lpthread -lwiringPi
